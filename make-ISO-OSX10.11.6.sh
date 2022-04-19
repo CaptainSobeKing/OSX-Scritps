@@ -1,5 +1,17 @@
 #!/bin/bash
 
+#===========================================================================
+# Works only with the official image available in the Mac App Store.
+# Make sure you download the official installer before running this script.
+#===========================================================================
+# Create OS X 10.11.6 El Capitan ISO
+
+# Change this at your desire. Sometimes this works out of the box, sometimes not.
+# Default size: ~16 GB
+# DISK_SIZE="15361m"
+
+#===========================================================================
+
 #taken from http://www.insanelymac.com/forum/topic/308533-how-to-create-a-bootable-el-capitan-iso-fo-vmware/
 
 # Mount the installer image
