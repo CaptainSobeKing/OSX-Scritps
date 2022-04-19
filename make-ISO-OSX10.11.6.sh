@@ -8,7 +8,7 @@
 
 # Change this at your desire. Sometimes this works out of the box, sometimes not.
 # Default size: ~16 GB
-# DISK_SIZE="15361m"
+DISK_SIZE="7316m"
 
 #===========================================================================
 
@@ -18,7 +18,7 @@
 hdiutil attach /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/SharedSupport/InstallESD.dmg -noverify -nobrowse -mountpoint /Volumes/install_app
 
 # Create the ElCapitan Blank ISO Image of 7316mb with a Single Partition - Apple Partition Map
-hdiutil create -o /tmp/ElCapitan.cdr -size 7316m -layout SPUD -fs HFS+J
+hdiutil create -o /tmp/ElCapitan.cdr -size DISK_SIZE -layout SPUD -fs HFS+J
 
 # Mount the ElCapitan Blank ISO Image
 hdiutil attach /tmp/ElCapitan.cdr.dmg -noverify -nobrowse -mountpoint /Volumes/install_build
