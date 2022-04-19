@@ -4,7 +4,7 @@
 # Make sure you download the official installer before running this script.
 #===========================================================================
 
-# Create a DMG Disk Image
+# Create a DMG Disk Image - size may need to be adjusted to 12000m
 hdiutil create -o /tmp/Catalina.cdr -size 9000m -layout SPUD -fs HFS+J
 
 # Mount it to your macOS
