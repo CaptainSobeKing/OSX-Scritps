@@ -6,7 +6,7 @@
 #===========================================================================
 
 # Change this at your desire. Sometimes this works out of the box, sometimes not.
-# Default size: ~13.5 GB
+# Default size: ~9 GB
 DISK_SIZE="9000m"
 
 #===========================================================================
