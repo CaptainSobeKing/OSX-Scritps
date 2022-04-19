@@ -14,7 +14,7 @@ hdiutil attach /tmp/Catalina.cdr.dmg -noverify -mountpoint /Volumes/install_buil
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia  --volume /Volumes/install_build --nointeraction
 
 # Unmount Catalina Disk
-hdiutil detach "/Volumes/Install macOS Catalina"
+hdiutil detach /Volumes/Install\ macOS\ Catalina
 
 # Convert the DMG file to an ISO file
 hdiutil convert /tmp/Catalina.cdr.dmg -format UDTO -o /tmp/Catalina.iso
