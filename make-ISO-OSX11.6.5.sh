@@ -2,6 +2,7 @@
 #===========================================================================
 # Works only with the official image available in the Mac App Store.
 # Make sure you download the official installer before running this script.
+# Create OS X 11.6.5 BigSur ISO
 #===========================================================================
 
 # Change this at your desire. Sometimes this works out of the box, sometimes not.
