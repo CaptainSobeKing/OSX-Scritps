@@ -4,8 +4,14 @@
 # Make sure you download the official installer before running this script.
 #===========================================================================
 
+# Change this at your desire. Sometimes this works out of the box, sometimes not.
+# Default size: ~13.5 GB
+DISK_SIZE="9000m"
+
+#===========================================================================
+
 # Create a DMG Disk Image - size may need to be adjusted to 12000m
-hdiutil create -o /tmp/Catalina.cdr -size 9000m -layout SPUD -fs HFS+J
+hdiutil create -o /tmp/Catalina.cdr -size DISK_SIZE -layout SPUD -fs HFS+J
 
 # Mount it to your macOS
 hdiutil attach /tmp/Catalina.cdr.dmg -noverify -mountpoint /Volumes/install_build
