@@ -2,6 +2,7 @@
 #===========================================================================
 # Works only with the official image available in the Mac App Store.
 # Make sure you download the official installer before running this script.
+# Create OS X 12.3.1 Monterey ISO
 #===========================================================================
 
 # Change this at your desire. Sometimes this works out of the box, sometimes not.
